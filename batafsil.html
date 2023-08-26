@@ -1,0 +1,112 @@
+<!-- 
+          <a
+            href="tel:+998 71 200 70 07"
+            target="_parent"
+            class="btn btn--call linear-wipe link borders"
+          >
+            <span class="number font-semibold text-base">{{ $t('call') }}</span>
+            <span class="icon--wrapp call">
+              <img
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiByeD0iMTIiIGZpbGw9IndoaXRlIiBmaWxsLW9wYWNpdHk9IjAuMyIvPgo8cGF0aCBkPSJNMTIuOTY5NSAxMy42NTc3QzEyLjczMjYgMTMuODk0NCAxMi40OTU3IDE0LjI0OTUgMTIuMzE4MSAxNC41NDU1QzExLjI1MjIgMTMuNzE2OCAxMC4zMDQ3IDEyLjcxMDYgOS40NzU2NiAxMS43MDQ0QzkuODMwOTcgMTEuNTI2OSAxMC4xMjcxIDExLjI5MDEgMTAuMzYzOSAxMS4wNTM0QzExLjU0ODMgOS44Njk1OCAxMS4xMzM3IDguMzMwNjggOS45NDk0IDcuMTQ2OTFDOC43NjUwNiA1Ljk2MzE0IDcuMjg0NjMgNS40ODk2MyA2LjA0MTA3IDYuNzMyNTlDNC43OTc1IDcuOTc1NTUgNC42NzkwNyAxMC4xMDYzIDUuNjI2NTUgMTEuNDY3N0M3LjM0Mzg0IDE0LjA3MiA5Ljk0OTQgMTYuNjc2MyAxMi41NTUgMTguMzkyN0MxMy45NzYyIDE5LjMzOTggMTYuMTA4IDE5LjE2MjIgMTcuMjkyMyAxNy45Nzg0QzE4LjQ3NjcgMTYuNzk0NiAxOC4wNjIyIDE1LjI1NTcgMTYuODc3OCAxNC4wNzJDMTUuNjkzNSAxMi44ODgyIDE0LjE1MzggMTIuNDE0NyAxMi45Njk1IDEzLjY1NzdaIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEuNiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xOSAxMUMxOSA3LjY2NjY3IDE2LjMzMzMgNSAxMyA1IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEuNiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE2IDExQzE2IDkuMzQwNDMgMTQuNjUzMSA4IDEzIDgiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMS42IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K"
+                alt="image"
+                loading="lazy"
+              />
+            </span>
+          </a>
+        
+
+<style scoped>
+.btn--call {
+  transition: 0.5s !important;
+}
+.btn--call span:nth-child(1) {
+  margin-right: 22px;
+}
+
+.btn--wrapp a {
+  transition: 0.4s !important;
+}
+
+.btn--call {
+  font-size: 14px;
+  text-align: center;
+  padding: 11px 8px;
+  width: max-content;
+  justify-content: center;
+}
+
+.btn--wrapp {
+  display: flex;
+  margin-top: 53px;
+  gap: 16px;
+}
+
+.btn {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  border-radius: 12px;
+
+  gap: 2px;
+  cursor: pointer;
+  transition: all 0.4s linear;
+}
+
+.icon--wrapp {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  transition: all linear 0.3s;
+}
+
+.borders {
+  border: 1px solid #fff;
+  border-radius: 12px;
+  padding: 11px 16px;
+}
+
+.number {
+  background: linear-gradient(
+    to right,
+    #fff 20%,
+    #4d4d4d 40%,
+    #4d4d4d 60%,
+    #fff 80%
+  );
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: shine 1s linear infinite;
+  animation: shine 3s linear infinite;
+  transition: all 0.4s !important;
+}
+.btn--call:hover .number {
+  color: #fff !important;
+  text-fill-color: unset !important;
+  -webkit-background-clip: unset !important;
+  -webkit-text-fill-color: unset !important;
+  animation: unset !important;
+  background: transparent !important;
+}
+
+@-webkit-keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+</style>
+ -->
