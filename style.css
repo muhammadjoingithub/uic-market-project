@@ -888,6 +888,96 @@ margin-top: 15px;
     display: flex;
     justify-content: space-between;
 }
+.batafsil{
+    width: 20%;
+}
+.sectionobzor{
+    width: 100%;
+}
+.obzor-tarif{
+    font-family: "Gilroy" , sans-serif;
+font-size: 28px;
+font-weight: 800;
+line-height: 35px;
+letter-spacing: 0.02em;
+text-align: center;
+color: #FFFFFF;
+
+}
+.schedule{
+    width: 100%;
+    height: auto;
+   
+}
+.names{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tega , .funcsiya{
+    font-family: "Gilroy",sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+color: grey;
+}
+.moslashuv{
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+  gap: 140px;
+  margin-top: 17px;
+
+}
+.funcsiyal{
+    color: white;
+    margin-left: 10px;
+}
+.boil{
+    background-color: rgb(36, 34, 34);
+   
+}
+.lar{
+    gap: 170px;
+
+}
+.son{
+    color: #FFFFFF;
+    font-family: "Gilroy" ,sans-serif;
+}
+.lara{
+    gap: 140px;
+}
+.ip{
+    color: white;
+    font-size: 20px;
+}
+.alertos{
+    background-color: rgb(48, 44, 44);
+   
+}
+.laral{
+    gap: 100px;
+}
+.podderj{
+    gap: 148px;
+}
+
+
+@media only screen and (max-width: 992px){
+   .moslashuv{
+    display: none;
+   }
+   .names{
+    height: 50px;
+   }
+}
+
+
+
 
 @media only screen and (max-width: 768px){
      ul{
@@ -1026,7 +1116,11 @@ margin-top: 15px;
     margin-top: auto;
     margin-bottom: auto;
     display: flex;
-    justify-content: end;
+    align-self: flex-end;
+   }
+   .batafsil{
+    width: 220px;
+    font-size: 11px;
    }
    .sotibol{
     width: 100%;
